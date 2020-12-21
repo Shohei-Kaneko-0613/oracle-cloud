@@ -8,7 +8,7 @@ variable "fingerprint" {
     default = "d6:97:63:6f:15:cf:8a:80:a4:26:5b:26:ca:9a:93:57"
 }
 variable "private_key_path" {
-    default = "./root/private-key.pem"
+    default = "./private-key.pem"
 }
 variable "region" {
     default = "ap-tokyo-1"
