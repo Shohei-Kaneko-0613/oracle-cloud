@@ -3,4 +3,4 @@ variable "user_ocid" {}
 variable "fingerprint" {}
 variable "private_key_path" {}
 variable "region" {}
-variable "compartment-ocid" {}
+variable "compartment_ocid" {}
