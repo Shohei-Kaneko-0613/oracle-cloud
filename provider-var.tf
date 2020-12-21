@@ -4,9 +4,7 @@ variable "tenancy_ocid" {
 variable "user_ocid" {
     default = "ocid1.user.oc1..aaaaaaaapqtfzldyal4oz53jm3e3b5fmymbdmi3ci2dkav7xoeop46foh4ea"
 }
-variable "fingerprint" {
-    default = "d6:97:63:6f:15:cf:8a:80:a4:26:5b:26:ca:9a:93:57"
-}
+variable "fingerprint" {}
 variable "private_key_path" {}
 
 variable "region" {
