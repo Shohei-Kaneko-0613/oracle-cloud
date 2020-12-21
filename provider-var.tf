@@ -1,18 +1,18 @@
-variable "tenancy_ocid" {
+variable "s_tenancy_ocid" {
   default = "****"
  }
-variable "user_ocid" {
+variable "s_user_ocid" {
   default = "****"
 }
-variable "fingerprint" {
+variable "s_fingerprint" {
   default = "****"
 }
-variable "private_key_path" {
+variable "s_private_key_path" {
   default = "****"
 }
-variable "region" {
+variable "s_region" {
   default = "****"
 }
-variable "compartment_ocid" {
+variable "s_compartment_ocid" {
   default = "****"
 }
