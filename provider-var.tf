@@ -1,6 +1,18 @@
-variable "tenancy_ocid" {}
-variable "user_ocid" {}
-variable "fingerprint" {}
-variable "private_key_path" {}
-variable "region" {}
-variable "compartment_ocid" {}
+variable "tenancy_ocid" {
+  default = "****"
+ }
+variable "user_ocid" {
+  default = "****"
+}
+variable "fingerprint" {
+  default = "****"
+}
+variable "private_key_path" {
+  default = "****"
+}
+variable "region" {
+  default = "****"
+}
+variable "compartment_ocid" {
+  default = "****"
+}
